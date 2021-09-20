@@ -1,5 +1,5 @@
 {
-	"name": "weky-updated",
+	"name": "weky",
 	"version": "3.1.8",
 	"description": "A fun npm package to play games within Discord with buttons!",
 	"main": "index.js",
@@ -8,18 +8,18 @@
 		"test": "nodemon test/test.js"
 	},
 	"keywords": [
-		"weky-updaed",
+		"weky",
 		"discord-games"
 	],
-	"homepage": "https://github.com/gtagamermods/weky-updated#readme",
+	"homepage": "https://github.com/WekyDev/weky-npm#readme",
 	"license": "CC BY-NC-ND 4.0",
 	"bugs": {
-		"url": "https://github.com/gtagamermods/weky-updated/issues"
+		"url": "https://github.com/WekyDev/weky-npm/issues"
 	},
-	"author": "Felix_PlaYz",
+	"author": "Face#5454 + Sujal Goel#7602 + rayz#4986",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/gtagamermods/weky-updated.git"
+		"url": "https://github.com/WekyDev/weky-npm.git"
 	},
 	"dependencies": {
 		"chalk": "^4.1.1",
@@ -27,12 +27,12 @@
 		"mathjs": "^9.4.3",
 		"node-fetch": "^2.6.1",
 		"quick.db": "^7.1.3",
+		"cheerio": "^1.0.0-rc.10",
+		"axios": "^0.21.1",
 		"string-width": "^2.1.1"
 	},
 	"devDependencies": {
 		"@weky/inlinereply": "^0.0.0",
-		"axios": "^0.21.1",
-		"cheerio": "^1.0.0-rc.10",
 		"nodemon": "^2.0.12"
 	}
 }
